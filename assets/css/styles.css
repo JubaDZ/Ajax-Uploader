@@ -1,0 +1,208 @@
+/* PHP File Tree Default Theme
+
+	By Cory LaViska (http://abeautifulsite.net/)
+	Featuring the Silk Icon Set from famfamfam (http://www.famfamfam.com/lab/icons/silk/)
+
+*/
+
+.php-file-tree {
+	font-family: Georgia;
+	font-size: 12px;
+	letter-spacing: 1px;	line-height: 1.5;
+}
+
+	.php-file-tree A {
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	.php-file-tree A:hover {
+		color: #666666;
+	}
+
+	.php-file-tree .open {
+		font-style: italic;
+	}
+	
+	.php-file-tree .closed {
+		font-style: normal;
+	}
+	
+	.php-file-tree .pft-directory {
+		list-style-image: url(images/directory.png);
+	}
+	
+	/* Default file */
+	.php-file-tree LI.pft-file { list-style-image: url(images/file.png); }
+	/* Additional file types */
+	.php-file-tree LI.ext-3gp { list-style-image: url(images/film.png); }
+	.php-file-tree LI.ext-afp { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-afpa { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-asp { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-aspx { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-avi { list-style-image: url(images/film.png); }
+	.php-file-tree LI.ext-bat { list-style-image: url(images/application.png); }
+	.php-file-tree LI.ext-bmp { list-style-image: url(images/picture.png); }
+	.php-file-tree LI.ext-c { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-cfm { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-cgi { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-com { list-style-image: url(images/application.png); }
+	.php-file-tree LI.ext-cpp { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-css { list-style-image: url(images/css.png); }
+	.php-file-tree LI.ext-doc { list-style-image: url(images/doc.png); }
+	.php-file-tree LI.ext-exe { list-style-image: url(images/application.png); }
+	.php-file-tree LI.ext-gif { list-style-image: url(images/picture.png); }
+	.php-file-tree LI.ext-fla { list-style-image: url(images/flash.png); }
+	.php-file-tree LI.ext-h { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-htm { list-style-image: url(images/html.png); }
+	.php-file-tree LI.ext-html { list-style-image: url(images/html.png); }
+	.php-file-tree LI.ext-jar { list-style-image: url(images/java.png); }
+	.php-file-tree LI.ext-jpg { list-style-image: url(images/picture.png); }
+	.php-file-tree LI.ext-jpeg { list-style-image: url(images/picture.png); }
+	.php-file-tree LI.ext-js { list-style-image: url(images/script.png); }
+	.php-file-tree LI.ext-lasso { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-log { list-style-image: url(images/txt.png); }
+	.php-file-tree LI.ext-m4p { list-style-image: url(images/music.png); }
+	.php-file-tree LI.ext-mov { list-style-image: url(images/film.png); }
+	.php-file-tree LI.ext-mp3 { list-style-image: url(images/music.png); }
+	.php-file-tree LI.ext-mp4 { list-style-image: url(images/film.png); }
+	.php-file-tree LI.ext-mpg { list-style-image: url(images/film.png); }
+	.php-file-tree LI.ext-mpeg { list-style-image: url(images/film.png); }
+	.php-file-tree LI.ext-ogg { list-style-image: url(images/music.png); }
+	.php-file-tree LI.ext-pcx { list-style-image: url(images/picture.png); }
+	.php-file-tree LI.ext-pdf { list-style-image: url(images/pdf.png); }
+	.php-file-tree LI.ext-php { list-style-image: url(images/php.png); }
+	.php-file-tree LI.ext-png { list-style-image: url(images/picture.png); }
+	.php-file-tree LI.ext-ppt { list-style-image: url(images/ppt.png); }
+	.php-file-tree LI.ext-psd { list-style-image: url(images/psd.png); }
+	.php-file-tree LI.ext-pl { list-style-image: url(images/script.png); }
+	.php-file-tree LI.ext-py { list-style-image: url(images/script.png); }
+	.php-file-tree LI.ext-rb { list-style-image: url(images/ruby.png); }
+	.php-file-tree LI.ext-rbx { list-style-image: url(images/ruby.png); }
+	.php-file-tree LI.ext-rhtml { list-style-image: url(images/ruby.png); }
+	.php-file-tree LI.ext-rpm { list-style-image: url(images/linux.png); }
+	.php-file-tree LI.ext-ruby { list-style-image: url(images/ruby.png); }
+	.php-file-tree LI.ext-sql { list-style-image: url(images/db.png); }
+	.php-file-tree LI.ext-swf { list-style-image: url(images/flash.png); }
+	.php-file-tree LI.ext-tif { list-style-image: url(images/picture.png); }
+	.php-file-tree LI.ext-tiff { list-style-image: url(images/picture.png); }
+	.php-file-tree LI.ext-txt { list-style-image: url(images/txt.png); }
+	.php-file-tree LI.ext-vb { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-wav { list-style-image: url(images/music.png); }
+	.php-file-tree LI.ext-wmv { list-style-image: url(images/film.png); }
+	.php-file-tree LI.ext-xls { list-style-image: url(images/xls.png); }
+	.php-file-tree LI.ext-xml { list-style-image: url(images/code.png); }
+	.php-file-tree LI.ext-zip { list-style-image: url(images/zip.png); }
+	/* You can add millions of these... 
+	.img-left{background: url(images/left.png) 50% no-repeat;}
+	.img-right{background: url(images/right.png) 50% no-repeat;}
+	*/
+	.img-left{background: url(images/left.png); background-repeat: no-repeat; background-position: center; }
+	.img-right{background: url(images/right.png);background-repeat: no-repeat; background-position: center; }
+
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.progress {
+    margin-bottom:0;
+    margin-top:6px;
+    margin-left:10px;
+}
+
+.btn.focus {
+    outline:thin dotted #333;
+    outline:5px auto -webkit-focus-ring-color;
+    outline-offset:-2px;
+}
+
+.btn.hover {
+    color:#ffffff;
+    background-color:#3276b1;
+    border-color:#285e8e;
+}
+
+	/* layout.css Style */
+.upload-drop-zone {
+  height: 160px;
+  border-width: 2px;
+ 
+  font-size: 1.2em;
+  background: #FFF;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+ /* color: #ccc;*/
+  border-style: dashed;
+  border-color: #ccc;
+  text-align: center;
+  border: 4px dashed rgba(0, 0, 0, 0.2);
+  padding:10px;
+  padding-top:50px;
+}
+.upload-drop-none {
+  border: none;
+  overflow:hidden;
+  height: 90px;
+  padding:10px;
+}
+#img{
+height: auto; min-height:300px;
+padding: 10px;
+}
+#img img{
+
+    margin: auto;
+
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+body{background: #F1F3FA;}
+#Json,#Browing{border: 2px dashed rgba(0, 0, 0, 0.2);padding:10px;background: #FFF;border-radius: 7px;}
+#Json{font-size: 12px;border-radius: 3px;min-height:40px;text-align: left;}
+#Browing{overflow-y: scroll;padding:10px; height: 220px;}
+.progress{margin-left: 0px;}
+
+  .upload-img-zone
+  {
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+width: 15%;
+font-size: 20px;
+color: #FFF;
+text-align: center;
+background-color: transparent;
+opacity: 0.5;
+  }
+  
+  .upload-img-zone.right {
+    right: 0px;
+    left: auto;
+	margin-top:30%;
+}
+
+  .upload-img-zone.left {
+    left: 0px;
+    right: auto;
+    margin-top:30%;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+}
