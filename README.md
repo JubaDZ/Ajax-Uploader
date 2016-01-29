@@ -5,7 +5,7 @@ Features
 --------
 * ajax File  browse 
 * ajax File `uploader` [LPology](https://github.com/LPology/Simple-Ajax-Uploader) 
-* tree view
+* tree view *LaViska*
 * `multi` Files Upload
 * `preview` files and images
 * `Bootstrap` framework
